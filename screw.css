@@ -1,0 +1,79 @@
+/* Scintilla Red: #e4002b */
+/* Color scheme according to wiki.scintilla.utwente.nl
+use with 'var(--scintilla-red)' */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+	--scintilla-red: #e4002b;
+    --scintilla-blue: #1283b1;
+    --scintilla-orange: #e89611;
+    --scintilla-black: #28282a;
+    --scintilla-white: #ebebeb;
+    --scintilla-sans: 'Source Sans Pro', sans-serif;
+    --scintilla-serif: 'Source Serif Pro', serif;
+    --scintilla-mono: 'Source Code Pro', monospace;
+    --scintilla-comic-sans-MS: 'Comic Sans MS';
+}
+
+
+body {
+    background-color: var(--scintilla-white);
+    font-family: var(--scintilla-sans);
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: var(--scintilla-sans);
+    font-weight: 500;
+}
+
+p {
+    color: var(--scintilla-black);
+}
+
+footer p {
+    color: var(--scintilla-white);
+}
+
+a {
+    color: var(--scintilla-red);
+}
+
+.login {
+    margin-top: 1.5rem;   
+}
+
+.top .login p a {
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    /*border: 1.5px solid var(--scintilla-red);*/
+    background-color: var(--scintilla-red);
+    margin: 0.5rem;
+    padding: 5px;
+}
+/*
+.login a[href="/my-scintilla/profile"] {
+    display: none;
+}
+*//*
+@media only screen and (min-width: 767px) {
+    .login a[href="/my-scintilla/profile"] {
+        display: initial;
+    }
+}
+*/
+
+section#content {
+    background-color: white;
+}
+
+.carousel-caption i {
+    background-color: var(--scintilla-red);
+    font-family: var(--scintilla-sans);
+}
+
+.headline h3 {
+    border-bottom-color: var(--scintilla-red);
