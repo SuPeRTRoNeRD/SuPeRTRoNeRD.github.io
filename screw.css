@@ -75,6 +75,13 @@ section#content {
     font-family: var(--scintilla-sans);
 }
 
+h3 {
+    padding: 10px;
+    background: var(--scintilla-red);
+    border-radius: 5px;
+    color: var(--scintilla-white);
+}
+
 .headline h3 {
     border-bottom-color: var(--scintilla-red);
 }
