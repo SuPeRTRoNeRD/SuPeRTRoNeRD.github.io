@@ -76,12 +76,15 @@ section#content {
 }
 
 h3 {
+    padding: 5px;
     background: var(--scintilla-red);
     border-radius: 5px;
     color: var(--scintilla-white);
 }
 
-
+#content p {
+    left: 10px;
+}
 
 .headline h3 {
     border-bottom-color: var(--scintilla-red);
